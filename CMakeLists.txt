@@ -33,6 +33,7 @@ include(${CMAKE_ROOT}/Modules/ExternalProject.cmake)
 ###
 # set(CMAKE_VERBOSE_MAKEFILE TRUE)
 
+add_definitions(-D_GLIBCXX_USE_CXX11_ABI=1)
 
 ###
 # project
